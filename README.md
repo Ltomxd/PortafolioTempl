@@ -61,65 +61,6 @@ El proyecto implementa Resend de dos maneras:
 
 La lógica principal está centralizada en `lib/services/email-service.ts` para facilitar su mantenimiento.
 
-## 📁 Estructura del Proyecto
-
-\`\`\`
-portfolio/
-├── app/                      # Directorio principal de Next.js App Router
-│   ├── api/                  # API Routes para el formulario de contacto
-│   │   ├── send/             # Endpoint principal para envío de emails
-│   │   └── send-simple/      # Endpoint alternativo simplificado
-│   ├── blogs/                # Página de blog
-│   ├── globals.css           # Estilos globales
-│   ├── layout.tsx            # Layout principal de la aplicación
-│   ├── page.tsx              # Página principal
-│   └── thanos-effect.css     # Estilos para el efecto Thanos
-├── components/               # Componentes React
-│   ├── sections/             # Componentes de secciones principales
-│   │   ├── about-section.tsx
-│   │   ├── contact-section.tsx
-│   │   ├── education-section.tsx
-│   │   ├── experience-section.tsx
-│   │   ├── hero-section.tsx
-│   │   ├── projects-section.tsx
-│   │   └── skills-section.tsx
-│   ├── ui/                   # Componentes de UI reutilizables
-│   ├── blog-section.tsx      # Componente de sección de blog
-│   ├── EmailTemplate.tsx     # Plantilla para emails
-│   ├── hackthebox-section.tsx # Sección de HackTheBox
-│   ├── language-switcher.tsx # Selector de idiomas
-│   ├── portfolio-content.tsx # Contenedor principal del portfolio
-│   ├── raccoon-revival.tsx   # Efecto de renacimiento
-│   ├── thanos-snap-effect.tsx # Efecto de desintegración
-│   └── ...
-├── contexts/                 # Contextos de React
-│   └── language-context.tsx  # Contexto para manejo de idiomas
-├── hooks/                    # Custom hooks
-│   ├── use-cv-generator.ts   # Hook para generación de CV
-│   ├── use-responsive.ts     # Hook para diseño responsivo
-│   └── ...
-├── lib/                      # Funciones y utilidades
-│   ├── generate-cv.ts        # Lógica de generación de CV
-│   └── services/             # Servicios (email, etc.)
-│       └── email-service.ts  # Servicio centralizado para emails
-├── public/                   # Archivos estáticos
-│   ├── images/               # Imágenes del proyecto
-│   │   ├── logo.png
-│   │   ├── skills/           # Iconos de habilidades
-│   │   └── ...
-│   └── sounds/               # Archivos de audio para efectos
-├── translations/             # Archivos de traducción
-│   ├── en.json               # Inglés
-│   ├── es.json               # Español
-│   ├── fr.json               # Francés
-│   └── de.json               # Alemán
-├── .env.example              # Ejemplo de variables de entorno
-├── .env.local                # Variables de entorno locales (no incluido en git)
-├── next.config.js            # Configuración de Next.js
-├── package.json              # Dependencias y scripts
-├── tailwind.config.js        # Configuración de Tailwind CSS
-└── tsconfig.json             # Configuración de TypeScript
-\`\`\`
 
 ## 🚀 Instalación y Configuración
 
