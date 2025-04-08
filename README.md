@@ -41,6 +41,8 @@ Portfolio personal interactivo y dinámico desarrollado con Next.js y React. Est
 
 ## 📁 Estructura del Proyecto
 
+
+
 \`\`\`
 portfolio/
 ├── app/                      # Directorio principal de Next.js App Router
@@ -97,6 +99,8 @@ portfolio/
 ├── tailwind.config.js        # Configuración de Tailwind CSS
 └── tsconfig.json             # Configuración de TypeScript
 \`\`\`
+
+
 
 ## 🚀 Instalación y Configuración
 
