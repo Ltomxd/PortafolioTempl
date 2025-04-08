@@ -1,0 +1,217 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über Mich",
+    "experience": "Erfahrung",
+    "skills": "Fähigkeiten",
+    "education": "Bildung",
+    "projects": "Projekte",
+    "blogs": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "hello": "Hallo,",
+    "iam": "Ich bin",
+    "roles": {
+      "pentester": "Professioneller Pentester",
+      "developer": "Entwickler",
+      "consultant": "Cybersicherheitsberater"
+    },
+    "contactMe": "KONTAKTIERE MICH",
+    "getResume": "LEBENSLAUF"
+  },
+  "about": {
+    "title": "WER BIN ICH?",
+    "description": "Ich präsentiere mich als aufgeschlossener junger Mensch mit Kommunikationsfähigkeiten, die mir eine schnelle Anpassung an neue Arbeitsumgebungen ermöglichen. Als leidenschaftlicher Technik- und Fotografieliebhaber bin ich Ingenieur für Systeme und Computernetzwerke, Programmierer, Cybersicherheitsberater und Pentester | Flag Player (Red Team).",
+    "cybersecurity": {
+      "title": "Cybersicherheit",
+      "description": "Spezialisiert auf Penetrationstests und Schwachstellenanalyse zum Schutz kritischer Systeme."
+    },
+    "development": {
+      "title": "Entwicklung",
+      "description": "Erstellung effizienter und sicherer technologischer Lösungen unter Verwendung bewährter Programmierpraktiken."
+    },
+    "ctfPlayer": {
+      "title": "CTF-Spieler",
+      "description": "Aktiver Teilnehmer an Capture The Flag-Wettbewerben, löst Herausforderungen der Computersicherheit."
+    }
+  },
+  "experience": {
+    "title": "ERFAHRUNG",
+    "jobs": [
+      {
+        "title": "PENTESTER",
+        "company": "Soluciones Roots",
+        "period": "(Januar 2024 - September, 3 Jahre Erfahrung im Bereich)",
+        "description": "Durchführung von Sicherheitsaudits, Penetrationstests und Schwachstellenanalysen für Unternehmenskunden. Implementierung von Sicherheitslösungen und Schulung technischer Teams."
+      },
+      {
+        "title": "FRONTEND-ENTWICKLER",
+        "company": "Soluciones Roots",
+        "period": "(Januar 2024 - September)",
+        "description": "Entwicklung von Webanwendungen mit modernen Technologien wie React, Node.js. Implementierung von Sicherheitsmaßnahmen in der Softwareentwicklung."
+      },
+      {
+        "title": "ENTWICKLER",
+        "company": "(Freiberuflich)",
+        "period": "(Januar 2021 - Gegenwärtig)",
+        "description": "Analyse, Design und Implementierung von Computersystemen. Wartung und Optimierung von Netzwerkinfrastrukturen und Servern. Fortgeschrittener technischer Support."
+      }
+    ]
+  },
+  "skills": {
+    "title": "FÄHIGKEITEN",
+    "description": "Technologien und Werkzeuge, die ich in meiner Arbeit als Pentester und Entwickler beherrsche"
+  },
+  "education": {
+    "title": "BILDUNG",
+    "items": [
+      {
+        "title": "INGENIEURWESEN FÜR SYSTEME UND COMPUTERNETZWERKE",
+        "institution": "Universidad Gerardo Barrios, El Salvador",
+        "period": "2019 - 2023"
+      },
+      {
+        "title": "CCNAV7: EINFÜHRUNG IN NETZWERKE",
+        "institution": "Cisco Networking Academy",
+        "period": "2020 - 2020"
+      },
+      {
+        "title": "CCNAV7: SWITCHING, ROUTING UND WIRELESS ESSENTIALS",
+        "institution": "Cisco Networking Academy",
+        "period": "2021 - 2021"
+      },
+      {
+        "title": "IT ESSENTIALS",
+        "institution": "Cisco Networking Academy",
+        "period": "2020 - 2020"
+      },
+      {
+        "title": "EINFÜHRUNG INS HACKING",
+        "institution": "hack4u",
+        "period": "2023 - 2024"
+      }
+    ]
+  },
+  "projects": {
+    "title": "PROJEKTE",
+    "description": "Einige meiner persönlichen Projekte und Open-Source-Beiträge.",
+    "loading": "Lade Repositories...",
+    "error": "Fehler beim Laden der Repositories:",
+    "viewMore": "Mehr Projekte anzeigen",
+    "exploreGithub": "GitHub erkunden"
+  },
+  "blogs": {
+    "title": "BLOG",
+    "description": "Entdecken Sie alle meine Projekte und Beiträge auf GitHub, Medium und mein HackTheBox-Profil",
+    "backToHome": "Zurück zur Startseite",
+    "pageTitle": "Franklyn Velásquez | Blog",
+    "tabs": {
+      "github": "GitHub",
+      "medium": "Medium",
+      "hackthebox": "HackTheBox"
+    },
+    "github": {
+      "viewProfile": "Profil anzeigen",
+      "repos": "Repos",
+      "followers": "Follower",
+      "following": "Folgt",
+      "viewCode": "Code auf GitHub anzeigen",
+      "viewDemo": "Projekt-Demo anzeigen",
+      "viewMore": "Mehr auf GitHub anzeigen",
+      "defaultBio": "Professioneller Pentester und Entwickler",
+      "locationNotAvailable": "Nicht verfügbar",
+      "profileError": "Fehler beim Laden des GitHub-Profils",
+      "reposError": "Fehler beim Laden der Repositories",
+      "generalError": "Fehler beim Laden der GitHub-Daten",
+      "noDescription": "Keine Beschreibung verfügbar",
+      "fallbackRepos": {
+        "0": {
+          "description": "DecoyMACPortScanner ist ein fortschrittliches TCP-Port-Scanning-Skript mit Nmap. Es ermöglicht..."
+        },
+        "1": {
+          "description": "Kontrollierte Umgebungen für Studenten und Anfänger, die Techniken üben möchten..."
+        },
+        "2": {
+          "description": "Das Skript wurde entwickelt, um die Reaktion auf Sicherheitsvorfälle in Netzwerken zu automatisieren. Sein Hauptzweck..."
+        }
+      }
+    },
+    "medium": {
+      "profileDescription": "Artikel über Cybersicherheit, Pentesting und Entwicklung",
+      "followOnMedium": "Auf Medium folgen",
+      "readArticle": "Artikel lesen",
+      "noArticlesFound": "Keine Artikel gefunden",
+      "noArticlesMessage": "Es sind noch keine Artikel auf Medium veröffentlicht oder sie konnten nicht geladen werden.",
+      "visitMedium": "Medium besuchen",
+      "viewMoreOnMedium": "Mehr auf Medium anzeigen",
+      "fetchError": "Fehler beim Abrufen von Medium-Artikeln",
+      "error": "Fehler beim Laden der Medium-Artikel",
+      "defaultCategory": "Cybersicherheit"
+    },
+    "hackthebox": {
+      "title": "HACK THE BOX",
+      "description": "Mein Profil und Fortschritt auf der ethischen Hacking-Plattform HackTheBox",
+      "loading": "Lade Profil...",
+      "rank": "Rang",
+      "global": "Global",
+      "country": "Land",
+      "viewProfile": "Profil anzeigen",
+      "stats": "Statistiken",
+      "globalRanking": "Globales Ranking",
+      "systemOwns": "System Owns",
+      "userOwns": "User Owns",
+      "finalScore": "Endpunktzahl",
+      "progressTitle": "Fortschritt zum Pro Hacker",
+      "hacker": "Hacker",
+      "proHacker": "Pro Hacker",
+      "recentActivities": "Neueste Aktivitäten",
+      "owned": "Owned",
+      "machine": "Machine",
+      "viewFullProfile": "Vollständiges Profil auf HackTheBox anzeigen"
+    }
+  },
+  "contact": {
+    "title": "KONTAKT",
+    "description": "Stellen Sie eine sichere Verbindung her, um mich zu kontaktieren",
+    "secureChannels": "SICHERE KANÄLE:",
+    "connectionStatus": {
+      "title": "VERBINDUNG HERGESTELLT",
+      "status": "ONLINE",
+      "encryption": "AKTIV",
+      "protocol": "SICHER"
+    },
+    "terminal": {
+      "initializing": "Initialisiere sicheres Kontaktprotokoll...",
+      "establishing": "Stelle verschlüsselte Verbindung her...",
+      "established": "Verbindung hergestellt. Sicherheitsstufe: MAXIMAL",
+      "welcome": "Willkommen im sicheren Kontaktterminal.",
+      "protocol": "RACCOON-Sicherheitsprotokoll aktiviert.",
+      "pleaseProvide": "Bitte geben Sie die folgenden Informationen an:",
+      "enterName": ">> Geben Sie Ihren Namen ein:",
+      "enterEmail": ">> Geben Sie Ihre E-Mail ein:",
+      "enterMessage": ">> Geben Sie Ihre Nachricht ein:",
+      "encrypting": "Verschlüssele Nachricht...",
+      "verifying": "Überprüfe Identität...",
+      "securingChannel": "Stelle sicheren Kanal her...",
+      "success": "Nachricht erfolgreich gesendet!",
+      "thanks": "Vielen Dank für Ihre Nachricht. Ich werde in Kürze antworten.",
+      "connectionEnded": "Verbindung beendet. Haben Sie einen sicheren Tag.",
+      "reset": ">> Tippen Sie 'reset', um neu zu beginnen",
+      "availableCommand": ">> Verfügbarer Befehl: reset",
+      "unknownCommand": "Unbekannter Befehl:",
+      "error": "FEHLER:",
+      "tryAgain": "Versuchen Sie es später erneut.",
+      "resetting": "Setze Formular zurück...",
+      "clearingData": "Lösche vorherige Daten..."
+    },
+    "buttons": {
+      "send": "SENDEN",
+      "sending": "SENDE...",
+      "reset": "ZURÜCKSETZEN"
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

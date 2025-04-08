@@ -1,0 +1,55 @@
+@keyframes disintegrate {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+.thanos-disintegrate {
+  animation: disintegrate 2s forwards;
+}
+
+@keyframes reintegrate {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.thanos-reintegrate {
+  animation: reintegrate 1s forwards;
+}
+
+.infinity-gauntlet-cursor {
+  cursor: url("/images/infinity-gauntlet.png"), auto;
+}
+
+/* Partículas de desintegración */
+.dust {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background-color: #ff3e55;
+  border-radius: 50%;
+  opacity: 0;
+  animation: dust-float 2s ease-out forwards;
+}
+
+@keyframes dust-float {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty));
+  }
+}

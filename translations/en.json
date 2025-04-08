@@ -1,0 +1,218 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "experience": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "projects": "Projects",
+    "blogs": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hello": "Hello,",
+    "iam": "I am",
+    "roles": {
+      "pentester": "Professional Pentester",
+      "developer": "Developer",
+      "consultant": "Cybersecurity Consultant"
+    },
+    "contactMe": "CONTACT ME",
+    "getResume": "GET RESUME",
+    "generatingCV": "GENERATING..."
+  },
+  "about": {
+    "title": "WHO AM I?",
+    "description": "I present myself as an outgoing young person with communication skills that facilitate my quick adaptation to new work environments. Passionate about technology and photography, I am a Systems and Computer Networks Engineer, programmer, cybersecurity consultant, and pentester | Flag Player (Red Team).",
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "description": "Specialized in penetration testing and vulnerability analysis to protect critical systems."
+    },
+    "development": {
+      "title": "Development",
+      "description": "Creation of efficient and secure technological solutions using best programming practices."
+    },
+    "ctfPlayer": {
+      "title": "CTF Player",
+      "description": "Active participant in Capture The Flag competitions, solving computer security challenges."
+    }
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "jobs": [
+      {
+        "title": "PENTESTER",
+        "company": "Soluciones Roots",
+        "period": "(January 2024 - September, 3 years of experience in the field)",
+        "description": "Conducting security audits, penetration testing, and vulnerability analysis for corporate clients. Implementation of security solutions and training for technical teams."
+      },
+      {
+        "title": "FRONTEND DEVELOPER",
+        "company": "Soluciones Roots",
+        "period": "(January 2024 - September)",
+        "description": "Development of web applications using modern technologies such as React, Node.js. Implementation of security measures in software development."
+      },
+      {
+        "title": "DEVELOPER",
+        "company": "(Freelance)",
+        "period": "(January 2021 - Present)",
+        "description": "Analysis, design, and implementation of computer systems. Maintenance and optimization of network infrastructures and servers. Advanced technical support."
+      }
+    ]
+  },
+  "skills": {
+    "title": "SKILLS",
+    "description": "Technologies and tools I master in my work as a pentester and developer"
+  },
+  "education": {
+    "title": "EDUCATION",
+    "items": [
+      {
+        "title": "SYSTEMS AND COMPUTER NETWORKS ENGINEERING",
+        "institution": "Universidad Gerardo Barrios, El Salvador",
+        "period": "2019 - 2023"
+      },
+      {
+        "title": "CCNAV7: INTRODUCTION TO NETWORKS",
+        "institution": "Cisco Networking Academy",
+        "period": "2020 - 2020"
+      },
+      {
+        "title": "CCNAV7: SWITCHING, ROUTING AND WIRELESS ESSENTIALS",
+        "institution": "Cisco Networking Academy",
+        "period": "2021 - 2021"
+      },
+      {
+        "title": "IT ESSENTIALS",
+        "institution": "Cisco Networking Academy",
+        "period": "2020 - 2020"
+      },
+      {
+        "title": "INTRODUCTION TO HACKING",
+        "institution": "hack4u",
+        "period": "2023 - 2024"
+      }
+    ]
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "description": "Some of my personal projects and open source contributions.",
+    "loading": "Loading repositories...",
+    "error": "Error loading repositories:",
+    "viewMore": "View more projects",
+    "exploreGithub": "Explore GitHub"
+  },
+  "contact": {
+    "title": "CONTACT",
+    "description": "Establish a secure connection to contact me",
+    "secureChannels": "SECURE CHANNELS:",
+    "connectionStatus": {
+      "title": "CONNECTION ESTABLISHED",
+      "status": "ONLINE",
+      "encryption": "ACTIVE",
+      "protocol": "SECURE"
+    },
+    "terminal": {
+      "initializing": "Initializing secure contact protocol...",
+      "establishing": "Establishing encrypted connection...",
+      "established": "Connection established. Security level: MAXIMUM",
+      "welcome": "Welcome to the secure contact terminal.",
+      "protocol": "RACCOON security protocol activated.",
+      "pleaseProvide": "Please provide the following information:",
+      "enterName": ">> Enter your name:",
+      "enterEmail": ">> Enter your email:",
+      "enterMessage": ">> Enter your message:",
+      "encrypting": "Encrypting message...",
+      "verifying": "Verifying identity...",
+      "securingChannel": "Establishing secure channel...",
+      "success": "Message sent successfully!",
+      "thanks": "Thank you for your message. I will respond shortly.",
+      "connectionEnded": "Connection terminated. Have a secure day.",
+      "reset": ">> Type 'reset' to start over",
+      "availableCommand": ">> Available command: reset",
+      "unknownCommand": "Unknown command:",
+      "error": "ERROR:",
+      "tryAgain": "Try again later.",
+      "resetting": "Resetting form...",
+      "clearingData": "Clearing previous data..."
+    },
+    "buttons": {
+      "send": "SEND",
+      "sending": "SENDING...",
+      "reset": "RESET"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "blogs": {
+    "title": "BLOG",
+    "description": "Explore all my projects and contributions on GitHub, Medium and my HackTheBox profile",
+    "backToHome": "Back to Home",
+    "pageTitle": "Franklyn Velásquez | Blog",
+    "tabs": {
+      "github": "GitHub",
+      "medium": "Medium",
+      "hackthebox": "HackTheBox"
+    },
+    "github": {
+      "viewProfile": "View Profile",
+      "repos": "Repos",
+      "followers": "Followers",
+      "following": "Following",
+      "viewCode": "View code on GitHub",
+      "viewDemo": "View project demo",
+      "viewMore": "View more on GitHub",
+      "defaultBio": "Professional Pentester and Developer",
+      "locationNotAvailable": "Not available",
+      "profileError": "Error loading GitHub profile",
+      "reposError": "Error loading repositories",
+      "generalError": "Error loading GitHub data",
+      "noDescription": "No description available",
+      "fallbackRepos": {
+        "0": {
+          "description": "DecoyMACPortScanner is an advanced TCP port scanning script using Nmap. It allows..."
+        },
+        "1": {
+          "description": "Controlled environments designed for students and beginners who want to practice techniques..."
+        },
+        "2": {
+          "description": "The script has been developed to automate the response to security incidents in networks. Its main..."
+        }
+      }
+    },
+    "medium": {
+      "profileDescription": "Articles about cybersecurity, pentesting and development",
+      "followOnMedium": "Follow on Medium",
+      "readArticle": "Read article",
+      "noArticlesFound": "No articles found",
+      "noArticlesMessage": "There are no articles published on Medium yet or they could not be loaded.",
+      "visitMedium": "Visit Medium",
+      "viewMoreOnMedium": "View more on Medium",
+      "fetchError": "Error fetching Medium articles",
+      "error": "Error loading Medium articles",
+      "defaultCategory": "Cybersecurity"
+    },
+    "hackthebox": {
+      "title": "HACK THE BOX",
+      "description": "My profile and progress on the HackTheBox ethical hacking platform",
+      "loading": "Loading profile...",
+      "rank": "Rank",
+      "global": "Global",
+      "country": "Country",
+      "viewProfile": "View Profile",
+      "stats": "Statistics",
+      "globalRanking": "Global Ranking",
+      "systemOwns": "System Owns",
+      "userOwns": "User Owns",
+      "finalScore": "Final Score",
+      "progressTitle": "Progress towards Pro Hacker",
+      "hacker": "Hacker",
+      "proHacker": "Pro Hacker",
+      "recentActivities": "Recent Activities",
+      "owned": "Owned",
+      "machine": "Machine",
+      "viewFullProfile": "View full profile on HackTheBox"
+    }
+  }
+}
